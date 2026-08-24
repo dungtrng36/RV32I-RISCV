@@ -32,12 +32,10 @@ package rv32i_pkg;
         BR_GEU
     } branchop;
 
-    typedef enum logic [2:0] { 
-        MEM_WORD,
-        MEM_HALF,
-        MEM_BYTE,
-        MEM_UHALF,
-        MEM_UBYTE
+    typedef enum logic [1:0] { 
+        MEM_BYTE
+        MEM_HALF
+        MEM_WORD
     } memsize;
 
 endpackage
