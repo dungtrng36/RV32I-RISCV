@@ -14,11 +14,11 @@ package rv32i_pkg;
     } aluop;
 
     typedef enum logic [2:0] { 
-        IMM_I,
-        IMM_S,
-        IMM_B,
-        IMM_U,
-        IMM_J
+        IMM_I;
+        IMM_S;
+        IMM_B;
+        IMM_U;
+        IMM_J;
     } immop;
 
     typedef enum logic [2:0] { 
@@ -31,8 +31,8 @@ package rv32i_pkg;
     } branchop;
 
     typedef enum logic [1:0] { 
-        MEM_BYTE,
-        MEM_HALF,
+        MEM_BYTE
+        MEM_HALF
         MEM_WORD
     } memsize;
 
