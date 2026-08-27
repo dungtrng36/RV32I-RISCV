@@ -2,6 +2,8 @@
 // data is data recieved from RD2
 // size is instr[13:12]
 // ---------------------------------------------------------------------------------------------------------------
+// The data_mem module already handles data shifting, therefore, this module will no longer be needed
+// ---------------------------------------------------------------------------------------------------------------
 
 import rv32i_pkg::memsize;
     

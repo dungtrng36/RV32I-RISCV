@@ -1,6 +1,6 @@
 import rv32i_pkg::immop;
 
-module moduleName (
+module imm_gen (
     input  logic [24:0] imm,
     input  immop        immcontrol,
     output logic [31:0] imm_out

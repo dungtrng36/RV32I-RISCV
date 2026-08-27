@@ -1,7 +1,5 @@
 package rv32i_pkg;
 
-    parameter int XLEN = 32;
-
     typedef enum logic [3:0] {
         ALU_ADD,
         ALU_SUB,
